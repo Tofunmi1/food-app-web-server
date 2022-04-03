@@ -1,0 +1,11 @@
+query Foods {
+  foods{
+   id
+   foodName
+   foodDescription
+   foodReviewStar
+   foodImageUrl
+   foodCategory
+   foodPrice
+  }
+}

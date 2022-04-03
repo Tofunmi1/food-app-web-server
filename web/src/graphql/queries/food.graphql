@@ -1,0 +1,12 @@
+query Food($id:Float!){
+  food(id:$id){
+    id
+    foodName
+    foodDescription
+    foodReviewStar
+    foodReviewStar
+    foodImageUrl
+    foodCategory
+    foodPrice
+  }
+}

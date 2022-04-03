@@ -1,0 +1,3 @@
+mutation AddFoodImage($picture:Upload!){
+  addFoodImage(picture:$picture)
+}

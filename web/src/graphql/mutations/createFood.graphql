@@ -1,0 +1,12 @@
+mutation CreateFood($options: FoodInput!){
+    createFood(input: $options){
+    id
+    createdAt
+  	 foodName
+    foodDescription
+    foodReviewStar
+    foodImageUrl
+    foodCategory
+    foodPrice
+  }
+}

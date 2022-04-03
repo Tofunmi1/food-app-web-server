@@ -1,0 +1,8 @@
+$default-orange-theme: #fc6603;
+@import 'mixins.scss';
+@import 'variables.scss';
+
+.wrapper{
+ display: flex;
+}
+

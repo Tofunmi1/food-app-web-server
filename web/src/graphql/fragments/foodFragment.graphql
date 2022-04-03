@@ -1,0 +1,11 @@
+fragment RegularFood on Food{
+ id
+ createdAt
+ updatedAt
+ foodName
+ foodDescription
+ foodReviewStar
+ foodImageUrl
+ foodCategory
+ foodPrice
+}
